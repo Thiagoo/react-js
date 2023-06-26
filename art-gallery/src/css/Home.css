@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+section::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.image-header {
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    flex-flow: column wrap;
+}
+
+.content-title h1 {
+    text-align: center;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 10px;
+}
+
+.image-content1,
+.image-content2,
+.image-content3,
+.image-content4,
+.image-content5,
+.image-content6,
+.image-content7,
+.image-content8,
+.image-content9,
+.image-content10 {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: 400px;
+}
+
+.image-content1 {
+    background: url('../images/art1.jpg');
+}
+
+.image-content2 {
+    background: url('../images/art2.jpg');
+}
+
+.image-content3 {
+    background: url('../images/art3.jpg');
+}
+
+.image-content4 {
+    background: url('../images/art4.jpg');
+}
+
+.image-content5 {
+    background: url('../images/art5.jpg');
+}
+
+.image-content6 {
+    background: url('../images/art6.jpg');
+}
+
+.image-content7 {
+    background: url('../images/art7.jpg');
+}
+
+.image-content8 {
+    background: url('../images/art8.jpg');
+}
+
+.image-content9 {
+    background: url('../images/art9.jpg');
+}
+
+.image-content10 {
+    background: url('../images/art10.jpg');
+}
+
+#link {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 35px;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: overline;
+    cursor: pointer;
+}

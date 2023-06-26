@@ -1,0 +1,36 @@
+.about-page .content-title h1 {
+    text-align: center;
+}
+
+.about-page article {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.about-page .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.about-page .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.about-page .line1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(49, 49, 112);
+}
+
+.about-page .line2 {
+    font-size: 24px;
+    text-align: center;
+}

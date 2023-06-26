@@ -1,0 +1,57 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-index {
+  background-color: #ffffff;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.image-header {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  display: flex;
+  height: 600px;
+  width: 100%;
+  flex-flow: column wrap;
+}
+
+.hero1 {
+  background: url('../images/heroes1.jpg');
+}
+
+.hero2 {
+  background: url('../images/heroes2.jpg');
+}
+
+
+.hero3 {
+  background: url('../images/heroes3.jpg');
+}
+
+.heroes-container {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 3em;
+}
