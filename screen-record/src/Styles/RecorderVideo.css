@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+}
+
+.screen-recorder-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+.recorder-container {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.recorder-container h1 {
+    font-size: 28px;
+    color: #222;
+    margin: 0;
+}
+
+.recording-indicator {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    background: #ffe8e8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn.start {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn.start:hover {
+    background-color: #218838;
+}
+
+.btn.stop {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn.stop:hover {
+    background-color: #c82333;
+}
+
+.btn.download {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.btn.download:hover {
+    background-color: #0069d9;
+}
+
+.btn.fullscreen {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn.fullscreen:hover {
+    background-color: #5a6268;
+}
+
+.video-section {
+    width: 100%;
+    text-align: left;
+}
+
+.video-section h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+}
+
+.video-output {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.video-display {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    border: 2px solid #007bff;
+    border-radius: 12px;
+    background-color: #000;
+}
+
+.video-controls {
+    display: flex;
+    gap: 20px;
+}
